@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Orbit Merge is a single-player Android puzzle game. Launch planets into orbit and merge matching planets before the arena fills up.">
+  <title>Orbit Merge</title>
+  <style>
+    :root { color-scheme: dark; background: #101b3d; color: #f5f6ff; font: 17px/1.6 system-ui, sans-serif; }
+    body { margin: 0; padding: clamp(24px, 6vw, 80px) 20px; }
+    main { max-width: 860px; margin: auto; }
+    .intro { display: grid; grid-template-columns: 1.1fr minmax(0, 1fr); gap: clamp(20px, 5vw, 56px); align-items: center; }
+    .art { width: 100%; height: auto; border-radius: 24px; border: 1px solid #52648a; }
+    h1, h2 { color: #ffdc9b; line-height: 1.15; }
+    h1 { font-size: clamp(2.8rem, 7vw, 4.5rem); margin: 0 0 16px; letter-spacing: -.04em; }
+    h2 { margin-bottom: 8px; font-size: 1.4rem; }
+    a { color: #a9e7ff; overflow-wrap: anywhere; }
+    .cta { display: inline-block; background: #ffdc9b; color: #101b3d; padding: 9px 16px; border-radius: 8px; font-weight: 650; }
+    section { margin-top: 32px; max-width: 650px; }
+    section p { margin-top: 0; }
+    footer { display: flex; flex-wrap: wrap; gap: 8px 24px; border-top: 1px solid #52648a; margin-top: 32px; padding-top: 16px; }
+    @media (max-width: 640px) { .intro { grid-template-columns: 1fr; } .art { max-width: 320px; } }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="intro">
+      <div>
+        <h1>Orbit Merge</h1>
+        <p>Launch planets toward a little sun. Merge matching planets, build chains, and see how high you can score before the arena fills up.</p>
+        <p>Orbit Merge is a single-player Android puzzle game by gameplaycomesfirst.</p>
+        <a class="cta" href="https://play.google.com/apps/testing/com.gameplaycomesfirst.orbitmerge">Open the Google Play test</a>
+      </div>
+      <img class="art" src="orbit-merge-art.png" width="512" height="512" alt="A smiling sun and two planets in the Orbit Merge arena">
+    </div>
+    <section aria-labelledby="scores-heading">
+      <h2 id="scores-heading">How Play Games is used</h2>
+      <p>You can play with a preset name. In supported builds, you can also choose to use your Google Play Games gamer name. Your chosen name can appear on the global leaderboard with a qualifying score. Orbit Merge does not receive your Google Account email address through this feature.</p>
+    </section>
+    <footer>
+      <a href="orbit-merge-privacy.html">Privacy policy</a>
+      <a href="orbit-merge-terms.html">Terms of use</a>
+      <a href="mailto:gameplaycomesfirst.support@gmail.com">Contact support</a>
+    </footer>
+  </main>
+</body>
+</html>
